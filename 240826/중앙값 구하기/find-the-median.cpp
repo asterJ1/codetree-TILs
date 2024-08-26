@@ -15,8 +15,10 @@ int main() {
             cout << b;
         }
     }
-    else {
-        cout << c;
+    else if (c > a) {
+        if (b > c) {
+            cout << c;
+        }
     }
     return 0;
 }
