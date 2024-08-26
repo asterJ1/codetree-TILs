@@ -10,13 +10,13 @@ int main() {
             cout << a;
         }
     }
-    else if (b > a) {
-        if (c > b) {
+    else if (b > c) {
+        if (a > b) {
             cout << b;
         }
     }
-    else if (c > a) {
-        if (b > c) {
+    else if (c > b) {
+        if (a > c) {
             cout << c;
         }
     }
