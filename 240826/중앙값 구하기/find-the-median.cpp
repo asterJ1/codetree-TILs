@@ -11,7 +11,7 @@ int main() {
     else if (b > c && c > a) {
         cout << c;
     }
-    else {
+    else if (c > a && a > b) {
         cout << a;
     }
     return 0;
